@@ -1,3 +1,14 @@
+body {
+  background-color: rgb(44, 44, 112);
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+.header {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
 .header h1 {
   margin-bottom: 0;
   text-align: center;
@@ -21,4 +32,15 @@
 .container p {
   margin-top: 5px;
   max-width: 66ch;
+}
+.noend {
+  margin-top: -24px;
+}
+.how {
+  color: rgb(83, 83, 160);
+  text-decoration: none;
+  font-size: 42px;
+}
+.how:hover {
+  text-decoration: underline;
 }

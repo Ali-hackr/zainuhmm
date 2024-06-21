@@ -1,0 +1,9 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+.ily {
+  margin: 0;
+  word-wrap: break-word;
+  overflow-x: hidden;
+}

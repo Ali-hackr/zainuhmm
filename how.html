@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="how.css" />
+
+    <title>How</title>
+  </head>
+  <body>
+    <h1 class="ily">I LOVE YOU</h1>
+
+    <script>
+      const ly = document.querySelector(".ily");
+      let t = " S";
+
+      for (let i = 0; i < 10_000; i++) {
+        t += "O";
+      }
+
+      ly.innerHTML = ly.textContent + t;
+
+      const down = () => {
+        t += "OOOOOOOOOOOOOOOOOOO";
+        ly.innerHTML = ly.textContent + t;
+      };
+
+      document.addEventListener("wheel", down);
+      document.addEventListener("touchmove", down);
+      document.addEventListener("scroll", down);
+    </script>
+  </body>
+</html>
